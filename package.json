@@ -1,0 +1,32 @@
+{
+  "name": "nasiruddintodolistapi",
+  "version": "1.0.0",
+  "description": "\"RESTful todoListApi for Nackademin course\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\Error: no test specified\\\" && exit1\"",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasirtrekker/nodejsapimongo.git"
+  },
+  "keywords": [
+    "\"RESTful\"",
+    "\"API\"",
+    "\"Tutorial\""
+  ],
+  "author": "Nasir Uddin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nasirtrekker/nodejsapimongo/issues"
+  },
+  "homepage": "https://github.com/nasirtrekker/nodejsapimongo#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongoose": "^4.10.2"
+  }
+}
